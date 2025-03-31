@@ -1,0 +1,66 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/ARGOeu/argo-accounting:
+      branch: main
+      repo: https://github.com/ARGOeu/argo-accounting.git
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: main
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/ARGOeu/argo-accounting git:
+        commands:
+        - /usr/bin/env sh .sqa/script.messy-yellow-shark.sh
+        container: qc.acc_skimpy-violet-bullfrog
+  QC.Doc:
+    repos:
+      github.com/ARGOeu/argo-accounting find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.foggy-lemon-bison.sh
+        container: qc.doc_cloudy-amaranth-moth
+      github.com/ARGOeu/argo-accounting git:
+        commands:
+        - /usr/bin/env sh .sqa/script.skimpy-xanthic-dugong.sh
+        container: qc.doc_trippy-copper-okapi
+      github.com/ARGOeu/argo-accounting markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.messy-goldenrod-spoonbill.sh
+        container: qc.doc_skimpy-persimmon-crab
+  QC.Lic:
+    repos:
+      github.com/ARGOeu/argo-accounting licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.slimy-purple-bongo.sh
+        container: qc.lic_pasty-burgundy-foxhound
+  QC.Met:
+    repos:
+      github.com/ARGOeu/argo-accounting cff-converter-python:
+        commands:
+        - /usr/bin/env sh .sqa/script.shaggy-russet-dog.sh
+        container: qc.met_stinky-gold-dogfish
+  QC.Sty:
+    repos:
+      github.com/ARGOeu/argo-accounting checkstyle:
+        commands:
+        - /usr/bin/env sh .sqa/script.boozy-smalt-liger.sh
+        container: qc.sty_scummy-beige-bonobo
+      github.com/ARGOeu/argo-accounting hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.gummy-bronze-goat.sh
+        container: qc.sty_homey-green-elephant
+      github.com/ARGOeu/argo-accounting jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.shaggy-zucchini-gecko.sh
+        container: qc.sty_pretty-sepia-civet
+  QC.Ver:
+    repos:
+      github.com/ARGOeu/argo-accounting get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.muggy-dandelion-terrier.sh
+        container: qc.ver_zippy-fuchsia-millipede
+timeout: 5400
