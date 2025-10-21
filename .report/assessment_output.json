@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/argo-accounting.git.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/argo-accounting.git.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1761060233.3088377
+        "timestamp": 1761060605.742335
     },
     "repository": [
         {
@@ -1628,24 +1628,24 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "id": "68f7a58bee07d8a9e28cc185",
-                "entityId": "Dcr_7u-iTN-RtOmoS-b89g",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/Dcr_7u-iTN-RtOmoS-b89g",
-                "createdAt": "2025-10-21T15:23:55.386536920Z",
+                "id": "68f7a6ffaa065885f0af8e3b",
+                "entityId": "Al_eQor3Sniop5Vek0gFPQ",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/Al_eQor3Sniop5Vek0gFPQ",
+                "createdAt": "2025-10-21T15:30:07.643770890Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "IDUsZJpNQPuiJpPwmJ8iJw",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/Dcr_7u-iTN-RtOmoS-b89g/image",
+                "image": "https://api.eu.badgr.io/public/assertions/Al_eQor3Sniop5Vek0gFPQ/image",
                 "recipient": {
-                    "identity": "sha256$5428fde862e08644b586efdcb58c7eb06dcca5e3dbf023526c9cbf7158d252d3",
+                    "identity": "sha256$56684170ceb8513a5b0934087a2ab0e14c4dead672992faa606de635bc413bbc",
                     "hashed": true,
                     "type": "url",
-                    "salt": "3xDIc3z38oMpK7r0",
+                    "salt": "0Au2P93WM63jHKJu",
                     "plaintextIdentity": "https://github.com/ARGOeu/argo-accounting.git"
                 },
-                "issuedOn": "2025-10-21T15:23:55.386540113Z",
+                "issuedOn": "2025-10-21T15:30:07.643776160Z",
                 "narrative": "Repository 'https://github.com/ARGOeu/argo-accounting.git' at version '74173c9658a163344eb5cb790952aa4346f4abf2' passed successfully the following quality criteria: QC.Ver QC.Met QC.Acc QC.Doc QC.Lic",
                 "evidence": [
                     {
@@ -1659,7 +1659,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/Dcr_7u-iTN-RtOmoS-b89g"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/Al_eQor3Sniop5Vek0gFPQ"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw"
@@ -1671,11 +1671,11 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-Dcr_7u-iTN-RtOmoS-b89g.png",
+                "imagePath": "uploads/badges/assertion-Al_eQor3Sniop5Vek0gFPQ.png",
                 "ob3AwardProperties": null
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/Dcr_7u-iTN-RtOmoS-b89g?identity__url=https%3A//github.com/EOSC-synergy/argo-accounting.git.assess.sqaaas/commit/69566c53dab58ec9dc56f5ba066582062e8511a2\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/Dcr_7u-iTN-RtOmoS-b89g/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FDcr_7u-iTN-RtOmoS-b89g?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fargo-accounting.git.assess.sqaaas%2Fcommit%2F69566c53dab58ec9dc56f5ba066582062e8511a2&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fargo-accounting.git.assess.sqaaas%2Fcommit%2F69566c53dab58ec9dc56f5ba066582062e8511a2"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/Al_eQor3Sniop5Vek0gFPQ?identity__url=https%3A//github.com/EOSC-synergy/argo-accounting.git.assess.sqaaas/commit/69566c53dab58ec9dc56f5ba066582062e8511a2\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/Al_eQor3Sniop5Vek0gFPQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FAl_eQor3Sniop5Vek0gFPQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fargo-accounting.git.assess.sqaaas%2Fcommit%2F69566c53dab58ec9dc56f5ba066582062e8511a2&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fargo-accounting.git.assess.sqaaas%2Fcommit%2F69566c53dab58ec9dc56f5ba066582062e8511a2"
         }
     }
 }
